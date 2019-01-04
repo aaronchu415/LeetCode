@@ -1,7 +1,14 @@
-let emails = ["test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"]
+// _NAME: Unique Email
+// _LINK: https://leetcode.com/problems/unique-email-addresses/
+// _CATEGORY: Array-String-Manipulation
+
+let emails = [
+  "test.email+alex@leetcode.com",
+  "test.e.mail+bob.cathy@leetcode.com",
+  "testemail+david@lee.tcode.com"
+];
 
 /**
- Link: https://leetcode.com/problems/unique-email-addresses/
 
  Every email consists of a local name and a domain name, separated by the @ sign.
 
@@ -32,34 +39,30 @@ actually receive mails
  * @param {string[]} emails
  * @return {number}
  */
-var numUniqueEmails = function (e) {
+var numUniqueEmails = function(e) {
+  //for each raw email
+  let finalEmail = e.map(email => {
+    //first split by @
+    let splitEmail = email.split("@");
 
-    //for each raw email
-    let finalEmail = e.map(email => {
+    // first part, clean up and replace "." with nothing clean up and delete
+    // anything after "+"
+    let firstPart = splitEmail[0].replace(".", "").split("+")[0];
 
-        //first split by @
-        let splitEmail = email.split("@");
+    //secomd part, clean up by removing .com replace "."" with nothing
+    let secondPart = splitEmail[1]
+      .substring(0, splitEmail[1].length - 4)
+      .replace(".", "");
 
-        // first part, clean up and replace "." with nothing clean up and delete
-        // anything after "+"
-        let firstPart = splitEmail[0]
-            .replace(".", "")
-            .split("+")[0];
+    //create the clean email and return
+    let cleanEmail = firstPart.concat("@", secondPart, ".com");
+    return cleanEmail;
+  });
 
-        //secomd part, clean up by removing .com replace "."" with nothing
-        let secondPart = splitEmail[1]
-            .substring(0, splitEmail[1].length - 4)
-            .replace(".", "");
-
-        //create the clean email and return
-        let cleanEmail = firstPart.concat("@", secondPart, ".com");
-        return cleanEmail;
-    })
-
-    //return count of distinct emails
-    return finalEmail.filter(function (item, pos) {
-        return finalEmail.indexOf(item) === pos;
-    }).length
+  //return count of distinct emails
+  return finalEmail.filter(function(item, pos) {
+    return finalEmail.indexOf(item) === pos;
+  }).length;
 };
 
 let num = numUniqueEmails(emails);

@@ -1,3 +1,7 @@
+// _NAME: Flipping an Image
+// _LINK: https://leetcode.com/problems/flipping-an-image/
+// _CATEGORY: 2d-Array-Manipulation
+
 /**
  Link: https://leetcode.com/problems/flipping-an-image/
 
@@ -20,43 +24,27 @@ Then, invert the image: [[1,0,0],[0,1,0],[1,1,1]]
  * @return {number[][]}
  **/
 
-let input = [
-    [
-        1, 1, 0
-    ],
-    [
-        1, 0, 1
-    ],
-    [0, 0, 0]
-];
+let input = [[1, 1, 0], [1, 0, 1], [0, 0, 0]];
 
-var flipAndInvertImage = function (imageArr) {
+var flipAndInvertImage = function(imageArr) {
+  let output = [];
 
-    let output = [];
+  imageArr.forEach(row => {
+    output.push(helper(row));
+  });
 
-    imageArr.forEach(row => {
-        output.push(helper(row));
-    });
-
-    return output;
+  return output;
 };
 
-var helper = function (row) {
+var helper = function(row) {
+  let output = [];
 
-    let output = [];
+  row.reverse().forEach(num => {
+    if (num === 0) output.push(1);
+    if (num === 1) output.push(0);
+  });
 
-    row
-        .reverse()
-        .forEach(num => {
-            if (num === 0) 
-                output.push(1);
-            if (num === 1) 
-                output.push(0);
-
-            }
-        );
-
-    return output;
+  return output;
 };
 
 console.log(flipAndInvertImage(input));

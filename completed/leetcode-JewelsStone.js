@@ -1,8 +1,11 @@
-let J = "aA"
-let S = "aAAbbbb"
+// _NAME: Jewels Stone
+// _LINK: https://leetcode.com/problems/jewels-and-stones/
+// _CATEGORY: String-Comparision
+
+let J = "aA";
+let S = "aAAbbbb";
 
 /**
- Link: https://leetcode.com/problems/jewels-and-stones/
 
 You're given strings J representing the types of stones that are jewels,
 and S representing the stones you have.
@@ -23,21 +26,19 @@ Output: 0
  * @return {number}
  */
 
-var numJewelsInStones = function (J, S) {
+var numJewelsInStones = function(J, S) {
+  let count = 0;
 
-    let count = 0;
-
-    //loop through each "stone" in S
-    for (let i = 0; i < S.length; i++) {
-        let currChar = S[i];
-        //if J includes the current char then add to count
-        if (currChar, J.includes(currChar)) {
-            count++;
-        }
+  //loop through each "stone" in S
+  for (let i = 0; i < S.length; i++) {
+    let currChar = S[i];
+    //if J includes the current char then add to count
+    if ((currChar, J.includes(currChar))) {
+      count++;
     }
+  }
 
-    return count;
-
+  return count;
 };
 
 console.log(numJewelsInStones(J, S));

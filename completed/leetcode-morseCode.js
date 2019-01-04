@@ -1,5 +1,8 @@
+// _NAME: Morse Code
+// _LINK: https://leetcode.com/problems/unique-morse-code-words/
+// _CATEGORY: Array-String-Transformation
+
 /**
- Link: https://leetcode.com/problems/unique-morse-code-words/
 
  International Morse Code defines a standard encoding where each letter
  is mapped to a series of dots and dashes, as follows: "a" maps to ".-", "b"
@@ -31,69 +34,64 @@ There are 2 different transformations, "--...-." and "--...--.".
  * @return {number}
  */
 
-let words = ["gin", "zen", "gig", "msg"]
+let words = ["gin", "zen", "gig", "msg"];
 
-var uniqueMorseRepresentations = function (words) {
+var uniqueMorseRepresentations = function(words) {
+  let morseCodeList = [
+    ".-",
+    "-...",
+    "-.-.",
+    "-..",
+    ".",
+    "..-.",
+    "--.",
+    "....",
+    "..",
+    ".---",
+    "-.-",
+    ".-..",
+    "--",
+    "-.",
+    "---",
+    ".--.",
+    "--.-",
+    ".-.",
+    "...",
+    "-",
+    "..-",
+    "...-",
+    ".--",
+    "-..-",
+    "-.--",
+    "--.."
+  ];
 
-    let morseCodeList = [
-        ".-",
-        "-...",
-        "-.-.",
-        "-..",
-        ".",
-        "..-.",
-        "--.",
-        "....",
-        "..",
-        ".---",
-        "-.-",
-        ".-..",
-        "--",
-        "-.",
-        "---",
-        ".--.",
-        "--.-",
-        ".-.",
-        "...",
-        "-",
-        "..-",
-        "...-",
-        ".--",
-        "-..-",
-        "-.--",
-        "--.."
-    ];
+  //for each word in array
+  let codeMessages = words.map(word => {
+    //holds the current word as code form
+    let wordInCode = "";
 
-    //for each word in array
-    let codeMessages = words.map(word => {
+    //loop through each letter and turn into code
+    [...word].forEach(c => {
+      //get the current letter as character number
+      let code = c.charCodeAt(0);
 
-        //holds the current word as code form
-        let wordInCode = "";
+      //minus 97 from it to map a to 0, b to 1, etc
+      let modifiedCode = code - 97;
+      //get the morse code from the morse code array
+      let morseCode = morseCodeList[modifiedCode];
 
-        //loop through each letter and turn into code
-        [...word].forEach(c => {
+      //concat the morse code for current letter to string
+      wordInCode = wordInCode.concat(morseCode);
+    });
+    //add morse code to array
+    return wordInCode;
+  });
 
-            //get the current letter as character number
-            let code = c.charCodeAt(0);
-
-            //minus 97 from it to map a to 0, b to 1, etc
-            let modifiedCode = code - 97;
-            //get the morse code from the morse code array
-            let morseCode = morseCodeList[modifiedCode];
-
-            //concat the morse code for current letter to string
-            wordInCode = wordInCode.concat(morseCode);
-
-        })
-        //add morse code to array
-        return wordInCode;
-    })
-
-    //return the count of the number of distinct morse codes
-    return codeMessages.filter(function (item, pos) {
-        return codeMessages.indexOf(item) === pos;
-    }).length
-
-}
+  //return the count of the number of distinct morse codes
+  return codeMessages.filter(function(item, pos) {
+    return codeMessages.indexOf(item) === pos;
+  }).length;
+};
 
 console.log(uniqueMorseRepresentations(words));

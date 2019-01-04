@@ -1,6 +1,8 @@
-/**
- Link: https://leetcode.com/problems/single-number/
+// _NAME: Single Number
+// _LINK: https://leetcode.com/problems/single-number/
+// _CATEGORY: Array-Integer
 
+/**
  Solution:
  Runtime - O(2N) -> O(N)
  Space - O(N)
@@ -25,31 +27,30 @@ Output: 4
  */
 let input = [4, 1, 2, 1, 2];
 
-var singleNumber = function (nums) {
-    let map = {}
-    let output;
+var singleNumber = function(nums) {
+  let map = {};
+  let output;
 
-    // iterate through each number in array if number is not found in map, then map
-    // to single if number is found in map, then map to dup
-    nums.forEach(n => {
-        if (map[n] === undefined) {
-            map[n] = "single"
-        } else {
-            map[n] = "dup";
-        }
-    });
+  // iterate through each number in array if number is not found in map, then map
+  // to single if number is found in map, then map to dup
+  nums.forEach(n => {
+    if (map[n] === undefined) {
+      map[n] = "single";
+    } else {
+      map[n] = "dup";
+    }
+  });
 
-    // iterate through num array a second time if number maps to "single" then
-    // output is the current number
-    nums.forEach(n => {
-        if (map[n] === "single") {
-            output = n;
-            return;
-        }
-    })
+  // iterate through num array a second time if number maps to "single" then
+  // output is the current number
+  nums.forEach(n => {
+    if (map[n] === "single") {
+      output = n;
+      return;
+    }
+  });
 
-    return output;
-
+  return output;
 };
 
 console.log(singleNumber(input));

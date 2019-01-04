@@ -1,6 +1,8 @@
-/**
- Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+// _NAME: Best Time To Buy And Sell Stock II
+// _LINK: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+// _CATEGORY: Array-Integer
 
+/**
 Say you have an array for which the ith element is the price of a given stock on day i.
 
 Design an algorithm to find the maximum profit.
@@ -31,28 +33,20 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
  * @return {number}
  */
 
-let input = [
-    7,
-    1,
-    5,
-    3,
-    6,
-    4
-]
+let input = [7, 1, 5, 3, 6, 4];
 
 // if tommrows price is up then buy and sell it (and collect profit) if prices
 // tommrow is down then dont buy. (Makes sense if we imagine a graph of a stock
 // chart).
-var maxProfit = function (prices) {
-
-    let total = 0;
-    for (let i = 0; i < prices.length - 1; i++) {
-        if (prices[i + 1] > prices[i]) {
-            total += prices[i + 1] - prices[i]
-        };
+var maxProfit = function(prices) {
+  let total = 0;
+  for (let i = 0; i < prices.length - 1; i++) {
+    if (prices[i + 1] > prices[i]) {
+      total += prices[i + 1] - prices[i];
     }
+  }
 
-    return total;
+  return total;
 };
 
 console.log(maxProfit(input));

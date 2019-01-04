@@ -31,74 +31,60 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
  * @return {number}
  */
 
-let input = [
-    7,
-    1,
-    5,
-    3,
-    6,
-    4
-]
-var maxProfit = function (prices) {
+let input = [7, 1, 5, 3, 6, 4];
+var maxProfit = function(prices) {
+  let currMax = -1;
 
-    let currMax = -1;
-
-    for (let i = 0; i < prices.length; i++) {
-
-        let currProfit = findProfit(prices, i);
-        if (currProfit > currMax) {
-            currMax = currProfit;
-        }
+  for (let i = 0; i < prices.length; i++) {
+    let currProfit = findProfit(prices, i);
+    if (currProfit > currMax) {
+      currMax = currProfit;
     }
+  }
 
-    return currMax;
+  return currMax;
 };
 
-var findBestIndex = function (prices, indexPosition) {
+var findBestIndex = function(prices, indexPosition) {
+  let indexOfMaxProfit;
+  let currMaxProfit = -1;
 
-    let indexOfMaxProfit;
-    let currMaxProfit = -1;
+  for (let i = indexPosition; i < prices.length; i++) {
+    let curr = prices[i];
+    let profit = curr - prices[indexPosition];
 
-    for (let i = indexPosition; i < prices.length; i++) {
-        let curr = prices[i];
-        let profit = curr - prices[indexPosition];
-
-        if (profit > currMaxProfit) {
-            indexOfMaxProfit = i;
-            currMaxProfit = profit;
-        }
+    if (profit > currMaxProfit) {
+      indexOfMaxProfit = i;
+      currMaxProfit = profit;
     }
+  }
 
-    return indexOfMaxProfit;
+  return indexOfMaxProfit;
 };
 
-var findProfit = function (prices, indexPosition) {
+var findProfit = function(prices, indexPosition) {
+  let currProfit = 0;
+  let currIndex = indexPosition; // 0
+  console.log("currIndex: is ", currIndex);
+  let profitIndex = findBestIndex(prices, currIndex);
+  console.log("profitIndex: is ", profitIndex);
 
-    let currProfit = 0;
-    let currIndex = indexPosition; // 0
-    console.log("currIndex: is ", currIndex)
-    let profitIndex = findBestIndex(prices, currIndex)
-    console.log("profitIndex: is ", profitIndex)
+  // while bestIndex is not indexPosition, we want to keep finding BestIndex and
+  // the profit
+  while (currIndex != profitIndex) {
+    //update current profit
+    currProfit += prices[profitIndex] - prices[currIndex];
 
-    // while bestIndex is not indexPosition, we want to keep finding BestIndex and
-    // the profit
-    while (currIndex != profitIndex) {
+    //update curr index to be profot index
+    currIndex = profitIndex + 1;
+    console.log("currIndex: is ", currIndex);
 
-        //update current profit
-        currProfit += prices[profitIndex] - prices[currIndex];
+    //update profit index
+    profitIndex = findBestIndex(prices, currIndex);
+  }
 
-        //update curr index to be profot index
-        currIndex = profitIndex + 1
-        console.log("currIndex: is ", currIndex)
-
-        //update profit index
-        profitIndex = findBestIndex(prices, currIndex)
-
-    }
-
-    return currProfit;
-
-}
+  return currProfit;
+};
 
 console.log(findProfit(input, 1));
 //console.log(maxProfit(input));

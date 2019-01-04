@@ -1,6 +1,8 @@
-/**
- Link: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+// _NAME: Find Disappearing Number
+// _LINK: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+// _CATEGORY: Array-Integer
 
+/**
  Solution:
  Runtime - O(N)
  Space - O(N)
@@ -18,39 +20,28 @@ You may assume the returned list does not count as extra space.
  * @return {number[]}
  */
 
-let input = [
-    4,
-    3,
-    2,
-    7,
-    8,
-    2,
-    3,
-    1
-];
+let input = [4, 3, 2, 7, 8, 2, 3, 1];
 
-var findDisappearedNumbers = function (nums) {
+var findDisappearedNumbers = function(nums) {
+  let missing = [];
+  let map = {};
 
-    let missing = []
-    let map = {}
-
-    //for each number, add unique to map
-    nums.forEach((n, i) => {
-        if (map[n] === undefined) {
-            map[n] = "F";
-        }
-    })
-
-    //for each num from i to N
-    for (let i = 1; i <= nums.length; i++) {
-        //if num is not in map, it is a missing num
-        if (map[i] === undefined) {
-            missing.push(i);
-        }
+  //for each number, add unique to map
+  nums.forEach((n, i) => {
+    if (map[n] === undefined) {
+      map[n] = "F";
     }
+  });
 
-    return missing;
+  //for each num from i to N
+  for (let i = 1; i <= nums.length; i++) {
+    //if num is not in map, it is a missing num
+    if (map[i] === undefined) {
+      missing.push(i);
+    }
+  }
 
+  return missing;
 };
 
 console.log(findDisappearedNumbers(input));

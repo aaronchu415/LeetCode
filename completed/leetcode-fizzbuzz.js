@@ -1,5 +1,8 @@
+// _NAME: Fizz Buzz
+// _LINK: https://leetcode.com/problems/fizz-buzz/
+// _CATEGORY: Iteration-Conditionals
+
 /**
- Link: https://leetcode.com/problems/fizz-buzz/
 
 Write a program that outputs the string representation of numbers from 1 to n.
 
@@ -33,23 +36,22 @@ Return:
  */
 
 let input = 15;
-var fizzBuzz = function (n) {
+var fizzBuzz = function(n) {
+  let output = [];
 
-    let output = []
-
-    for (let i = 1; i <= n; i++) {
-        if ((i % 3 === 0) && (i % 5 === 0)) {
-            output.push("FizzBuzz");
-        } else if (i % 3 === 0) {
-            output.push("Fizz");
-        } else if (i % 5 === 0) {
-            output.push("Buzz");
-        } else {
-            output.push(i.toString());
-        }
+  for (let i = 1; i <= n; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      output.push("FizzBuzz");
+    } else if (i % 3 === 0) {
+      output.push("Fizz");
+    } else if (i % 5 === 0) {
+      output.push("Buzz");
+    } else {
+      output.push(i.toString());
     }
+  }
 
-    return output;
+  return output;
 };
 
 console.log(fizzBuzz(input));
