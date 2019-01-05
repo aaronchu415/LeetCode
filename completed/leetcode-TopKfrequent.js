@@ -4,7 +4,7 @@
 
 /**
  Solution:
- Runtime - O(N)
+ Runtime - O(nLog(n))
  Space - O(N)
 
 Given a non-empty array of integers, return the k most frequent elements.
@@ -28,7 +28,9 @@ let k = 2;
 var topKFrequent = function(nums, k) {
   let obj = {};
 
+  //for each number in list
   nums.forEach(n => {
+    //if number is in map then add one to value else assign value to 1
     if (obj[n] === undefined) {
       obj[n] = 1;
     } else {
@@ -37,6 +39,8 @@ var topKFrequent = function(nums, k) {
   });
   //console.log(obj);
 
+  //sort the elements in the object
+  //get the first k elements and return
   let elements = Object.keys(obj)
     .sort((a, b) => obj[b] - obj[a])
     .slice(0, k)

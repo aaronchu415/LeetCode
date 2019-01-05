@@ -6,6 +6,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
 | [Leetcode - Jewels Stone](https://leetcode.com/problems/jewels-and-stones/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-JewelsStone.js) | String-Comparision |
+| [Leetcode - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TopKfrequent.js) | Array-Integer |
 | [Leetcode - Unique Email](https://leetcode.com/problems/unique-email-addresses/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-UniqueEmail.js) | Array-String-Manipulation |
 | [Leetcode - Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-bestTimeToBuyAndSellStock.js) | Array-Integer |
 | [Leetcode - Find Disappearing Number](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findDisappearedNum.js) | Array-Integer |
@@ -19,3 +20,4 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Implement Lower Case Function](https://leetcode.com/problems/to-lower-case/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-toLowerCase.js) | Character-Manipulation |
 | [ProjectEuler - Multiples of 3 and 5](https://projecteuler.net/problem=1) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem1.js) | Integers |
 | [ProjectEuler - Even Fibonacci numbers](https://projecteuler.net/problem=2) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem2.js) | Integer |
+| [ProjectEuler - Largest prime factor](https://projecteuler.net/problem=3) | [solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem3.1.js) | Integer |
