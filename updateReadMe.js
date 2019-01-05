@@ -50,7 +50,8 @@ function generateMarkup() {
       .filter(Boolean);
 
     //pull out the data from the lines
-    let problemName = findAttribute("_NAME: ", lines);
+    let problemName =
+      getSiteName(file) + " - " + findAttribute("_NAME: ", lines);
     let problemLink = findAttribute("_LINK: ", lines);
     let solutionName = getSolutionName(file);
     let solutionLink = getSolutionLink(file);
@@ -83,6 +84,15 @@ function getSolutionName(file) {
     default:
       return "solution";
   }
+}
+
+function getSiteName(file) {
+  if (file.split("-").length < 2) {
+    return "";
+  }
+  let name = file.split("-")[0]; //get website name from file
+  //uppercase first letter of name
+  return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
 function findAttribute(attr, lines) {

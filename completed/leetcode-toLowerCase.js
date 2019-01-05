@@ -1,4 +1,4 @@
-// _NAME: Impelement Lower Case Function
+// _NAME: Implement Lower Case Function
 // _LINK: https://leetcode.com/problems/to-lower-case/
 // _CATEGORY: Character-Manipulation
 
