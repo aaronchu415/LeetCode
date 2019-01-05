@@ -20,4 +20,5 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Implement Lower Case Function](https://leetcode.com/problems/to-lower-case/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-toLowerCase.js) | Character-Manipulation |
 | [ProjectEuler - Multiples of 3 and 5](https://projecteuler.net/problem=1) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem1.js) | Integers |
 | [ProjectEuler - Even Fibonacci numbers](https://projecteuler.net/problem=2) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem2.js) | Integer |
-| [ProjectEuler - Largest prime factor](https://projecteuler.net/problem=3) | [solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem3.1.js) | Integer |
+| [ProjectEuler - Largest prime factor](https://projecteuler.net/problem=3) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem3.js) | Integer |
+| [ProjectEuler - Largest palindrome product](https://projecteuler.net/problem=4) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem4.js) | Integer |
