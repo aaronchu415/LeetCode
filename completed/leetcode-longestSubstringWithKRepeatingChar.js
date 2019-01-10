@@ -1,5 +1,5 @@
 // _NAME: Longest Substring with At Least K Rep Char
-// _LINK: https://leetcode.com/problems/maximum-subarray/
+// _LINK: https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/
 // _CATEGORY: String
 
 /**
