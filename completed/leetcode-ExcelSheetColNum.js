@@ -1,6 +1,6 @@
 // _NAME: Excel Sheet Column Number
 // _LINK: https://leetcode.com/problems/excel-sheet-column-number/
-// _CATEGORY:
+// _CATEGORY: Conversion
 
 /**
 
