@@ -3,10 +3,7 @@
 // _CATEGORY: String
 
 /**
- 
- Solution:
- Runtime - O(N^2) -> double forloop + helper function loop
- Space - O(1) 
+
 
 Find the length of the longest substring T of a given string 
 (consists of lowercase letters only) such that every character in T appears no less than k times.
@@ -34,15 +31,18 @@ The longest substring is "ababb", as 'a' is repeated 2 times and 'b' is repeated
  * @return {number}
  */
 
-let s = "aacbbbdc";
+let s = "ababbc";
 let k = 2;
 
 var longestSubstring = function(s, k) {
   //if empty string then return 0
+
+  var memo = {};
+
   if (s.length === 0) return 0;
 
   //if entire string contains k repeating char then return length of string
-  if (isSubstringValid(s, k)) return s.length;
+  if (isSubstringValid(s, k, memo)) return s.length;
 
   let currLargest = 0;
 
@@ -63,7 +63,7 @@ var longestSubstring = function(s, k) {
         b = false;
       } else {
         //else test if it is a valid substring
-        b = isSubstringValid(currSubString, k);
+        b = isSubstringValid(currSubString, k, memo);
       }
 
       //if valid substring then find length of substring. if len is greater than currLargest. Updates
@@ -90,16 +90,28 @@ var longestSubstring = function(s, k) {
   return currLargest;
 };
 
-var isSubstringValid = (substring, k) => {
+var isSubstringValid = (substring, k, memo) => {
+  let lastSub = substring.substring(0, substring.length - 1);
+
   let map = {};
 
-  //count how many distinct letters are in the substring
-  for (let i = 0; i < substring.length; i++) {
-    let currC = substring[i];
-    if (!map[currC]) {
-      map[currC] = 1;
+  if (memo[lastSub]) {
+    map = memo[lastSub];
+    let lastC = substring[substring.length - 1];
+    if (!map[lastC]) {
+      map[lastC] = 1;
     } else {
-      map[currC]++;
+      map[lastC]++;
+    }
+  } else {
+    //count how many distinct letters are in the substring
+    for (let i = 0; i < substring.length; i++) {
+      let currC = substring[i];
+      if (!map[currC]) {
+        map[currC] = 1;
+      } else {
+        map[currC]++;
+      }
     }
   }
 
@@ -115,9 +127,9 @@ var isSubstringValid = (substring, k) => {
     }
   }
 
+  memo[substring] = map;
+  //console.log(output, memo);
   return output;
-
-  //console.log(output, map);
 };
 
 console.log(longestSubstring(s, k));

@@ -5,6 +5,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
     
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
+| [Leetcode - Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ExcelSheetColNum.js) | NA |
 | [Leetcode - Jewels Stone](https://leetcode.com/problems/jewels-and-stones/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-JewelsStone.js) | String-Comparision |
 | [Leetcode - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TopKfrequent.js) | Array-Integer |
 | [Leetcode - Unique Email](https://leetcode.com/problems/unique-email-addresses/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-UniqueEmail.js) | Array-String-Manipulation |
