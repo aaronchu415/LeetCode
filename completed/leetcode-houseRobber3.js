@@ -79,8 +79,6 @@ var rob = function(h) {
 };
 
 var helper = function(s, houses, indexOfCurrHouse, canRobNextHouse, memo) {
-  console.log(s, houses, indexOfCurrHouse, canRobNextHouse);
-
   //if there is no next house then return the $0
   if (indexOfCurrHouse > houses.length - 1) {
     return 0;
@@ -104,8 +102,9 @@ var helper = function(s, houses, indexOfCurrHouse, canRobNextHouse, memo) {
       if (memo[[indexOfCurrHouse + 1, false]]) {
         takeMoneyAnswer = currHouseVal + memo[[indexOfCurrHouse + 1, false]];
       } else {
-        takeMoneyAnswer =
-          currHouseVal + helper(s, houses, indexOfCurrHouse + 1, false, memo);
+        let answer = helper(s, houses, indexOfCurrHouse + 1, false, memo);
+        memo[[indexOfCurrHouse + 1, false]] = answer;
+        takeMoneyAnswer = currHouseVal + answer;
       }
 
       //dont take money
@@ -115,7 +114,9 @@ var helper = function(s, houses, indexOfCurrHouse, canRobNextHouse, memo) {
       if (memo[[indexOfCurrHouse + 1, true]]) {
         dontTakeAnswer = memo[[indexOfCurrHouse + 1, true]];
       } else {
-        dontTakeAnswer = helper(s, houses, indexOfCurrHouse + 1, true, memo);
+        let answer = helper(s, houses, indexOfCurrHouse + 1, true, memo);
+        memo[[indexOfCurrHouse + 1, true]] = answer;
+        dontTakeAnswer = answer;
       }
 
       //obviously i want the max of the outcome
