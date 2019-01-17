@@ -34,6 +34,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Implement Lower Case Function](https://leetcode.com/problems/to-lower-case/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-toLowerCase.js) | Character-Manipulation |
 | [Leetcode - Two Sum](https://leetcode.com/problems/two-sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-twoSum.js) | Array-Integer |
 | [Leetcode - Unique Paths](https://leetcode.com/problems/unique-paths/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-uniquePaths.js) | Array-Integer |
+| [Leetcode - Word Break](https://leetcode.com/problems/word-break/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-wordBreak.js) | String |
 | [ProjectEuler - Multiples of 3 and 5](https://projecteuler.net/problem=1) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem1.js) | Integers |
 | [ProjectEuler - Even Fibonacci numbers](https://projecteuler.net/problem=2) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem2.js) | Integer |
 | [ProjectEuler - Largest prime factor](https://projecteuler.net/problem=3) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem3.js) | Integer |
