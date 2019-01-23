@@ -32,7 +32,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Missing Number](https://leetcode.com/problems/missing-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-missingNumber.js) | Array-Integer |
 | [Leetcode - Morse Code](https://leetcode.com/problems/unique-morse-code-words/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-morseCode.js) | Array-String-Transformation |
 | [Leetcode - Moving Zeros](https://leetcode.com/problems/move-zeroes/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-movingZeros.js) | Array-Integer-Manipulation |
-| [Leetcode - Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-pascalsTriange.js) | Linked List |
+| [Leetcode - Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-pascalsTriange.js) | Iterative |
 | [Leetcode - Permutations](https://leetcode.com/problems/permutations/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-permutations.js) | Array-Integer |
 | [Leetcode - Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-removeDup.js) | Array-Integer |
 | [Leetcode - Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-reverseLinkedList.js) | LinkedList |
@@ -43,6 +43,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Implement Lower Case Function](https://leetcode.com/problems/to-lower-case/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-toLowerCase.js) | Character-Manipulation |
 | [Leetcode - Two Sum](https://leetcode.com/problems/two-sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-twoSum.js) | Array-Integer |
 | [Leetcode - Unique Paths](https://leetcode.com/problems/unique-paths/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-uniquePaths.js) | Array-Integer |
+| [Leetcode - Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-uniquePathsII.js) | 2d-Array-Integer |
 | [Leetcode - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-validParen.js) | Parentheses |
 | [Leetcode - Word Break](https://leetcode.com/problems/word-break/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-wordBreak.js) | String |
 | [ProjectEuler - Multiples of 3 and 5](https://projecteuler.net/problem=1) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem1.js) | Integers |
