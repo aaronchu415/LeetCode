@@ -1,6 +1,6 @@
 // _NAME: Pascal's Triangle
 // _LINK: https://leetcode.com/problems/pascals-triangle/
-// _CATEGORY: Linked List
+// _CATEGORY: Iterative
 
 /**
 
