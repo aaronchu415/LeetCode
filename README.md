@@ -18,6 +18,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-containsDup.js) | Array-Integer |
 | [Leetcode - Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-containsDupII.js) | Array-Integer |
 | [Leetcode - Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-deleteNodeInLinkedList2.js) | LinkedList |
+| [Leetcode - Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findAllAnagramInString.js) | String |
 | [Leetcode - Find Disappearing Number](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findDisappearedNum.js) | Array-Integer |
 | [Leetcode - Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-fizzbuzz.js) | Iteration-Conditionals |
 | [Leetcode - Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-flippingAnImage.js) | 2d-Array-Manipulation |
@@ -40,6 +41,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-romanToInteger.js) | Integer |
 | [Leetcode - Rotate Array](https://leetcode.com/problems/rotate-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-rotateArray.js) | Array-Integer |
 | [Leetcode - Single Number](https://leetcode.com/problems/single-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-singleNumber.js) | Array-Integer |
+| [Leetcode - Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-squarNumInArray.js) | Iteration-Conditionals |
 | [Leetcode - Implement Lower Case Function](https://leetcode.com/problems/to-lower-case/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-toLowerCase.js) | Character-Manipulation |
 | [Leetcode - Two Sum](https://leetcode.com/problems/two-sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-twoSum.js) | Array-Integer |
 | [Leetcode - Unique Paths](https://leetcode.com/problems/unique-paths/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-uniquePaths.js) | Array-Integer |
