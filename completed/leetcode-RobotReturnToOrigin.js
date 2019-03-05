@@ -1,99 +1,41 @@
-// _NAME: Available Captures for Rook
-// _LINK: https://leetcode.com/problems/available-captures-for-rook/
+// _NAME: Robot Return to Origin
+// _LINK: https://leetcode.com/problems/robot-return-to-origin/
 // _CATEGORY: Array-Integer
 
 /**
-On an 8 x 8 chessboard, there is one white rook.  There also may be empty squares, white bishops, and black pawns.  These are given as characters 'R', '.', 'B', and 'p' respectively. Uppercase characters represent white pieces, and lowercase characters represent black pieces.
+There is a robot starting at position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.
 
-The rook moves as in the rules of Chess: it chooses one of four cardinal directions (north, east, west, and south), then moves in that direction until it chooses to stop, reaches the edge of the board, or captures an opposite colored pawn by moving to the same square it occupies.  Also, rooks cannot move into the same square as other friendly bishops.
+The move sequence is represented by a string, and the character moves[i] represents its ith move. Valid moves are R (right), L (left), U (up), and D (down). If the robot returns to the origin after it finishes all of its moves, return true. Otherwise, return false.
 
-Return the number of pawns the rook can capture in one move.
+Note: The way that the robot is "facing" is irrelevant. "R" will always make the robot move to the right once, "L" will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.
 
-Input: [7,1,5,3,6,4]
-Output: 7
-Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5),
-             profit = 5-1 = 4.
-             Then buy on day 4 (price = 3) and sell on day 5 (price = 6),
-             profit = 6-3 = 3.
-
-
-
-Input: [[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
-Output: 3
-Explanation: 
-In this example the rook is able to capture all the pawns.
+Input: "UD"
+Output: true 
+Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.
 
 /**
- * @param {character[][]} board
- * @return {number}
+ * @param {string} moves
+ * @return {boolean}
  */
 
-let input = [[".", ".", ".", ".", ".", ".", ".", "."], [".", ".", ".", "p", ".", ".", ".", "."], [".", ".", ".", "R", ".", ".", ".", "p"], [".", ".", ".", ".", ".", ".", ".", "."], [".", ".", ".", ".", ".", ".", ".", "."], [".", ".", ".", "p", ".", ".", ".", "."], [".", ".", ".", ".", ".", ".", ".", "."], [".", ".", ".", ".", ".", ".", ".", "."]]
+let input = "UD"
 
 
-var numRookCaptures = function (board) {
-  let row = 0;
-  let col = 0;
+var judgeCircle = function (moves) {
+  let movesList = moves.split('')
 
-  let count = 0;
+  let position = [0, 0]
 
-  //find position of rook
-  for (let i = 0; i < board.length; i++) {
-    if (board[i].indexOf('R') !== -1) {
-      row = i
-      col = board[i].indexOf('R')
-    }
+  for (let i = 0; i < movesList.length; i++) {
+    if (movesList[i] === 'U') position[0]++
+    if (movesList[i] === 'D') position[0]--
+    if (movesList[i] === 'R') position[1]++
+    if (movesList[i] === 'L') position[1]--
   }
 
-  //check left
+  return position[0] === 0 && position[1] === 0
 
-  for (let j = col - 1; j >= 0; j--) {
-    // console.log(board[row][j])
-    if (board[row][j] === 'B') break
-    if (board[row][j] === 'p') {
-      count++
-      break
-    }
-  }
 
-  //check right
-
-  for (let j = col + 1; j < board[row].length; j++) {
-    // console.log(board[row][j])
-    if (board[row][j] === 'B') break
-    if (board[row][j] === 'p') {
-      count++
-      break
-    }
-  }
-
-  //check up
-
-  for (let k = row - 1; k >= 0; k--) {
-    // console.log(board[k][col])
-    if (board[k][col] === 'B') break
-    if (board[k][col] === 'p') {
-      count++
-      break
-    }
-
-  }
-
-  //check down
-  for (let k = row + 1; k < board.length; k++) {
-    // console.log(board[k][col])
-    if (board[k][col] === 'B') break
-    if (board[k][col] === 'p') {
-      count++
-      break
-    }
-
-  }
-
-  console.log(board)
-  console.log(row, col)
-
-  return count
 };
 
-console.log(maxProfit(numRookCaptures));
+console.log(maxProfit(judgeCircle));
