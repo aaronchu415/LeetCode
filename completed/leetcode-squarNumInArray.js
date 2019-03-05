@@ -1,57 +1,25 @@
-// _NAME: Fizz Buzz
-// _LINK: https://leetcode.com/problems/fizz-buzz/
-// _CATEGORY: Iteration-Conditionals
+// _NAME: Squares of a Sorted Array
+// _LINK: https://leetcode.com/problems/squares-of-a-sorted-array/
+// _CATEGORY: Array
 
 /**
 
-Write a program that outputs the string representation of numbers from 1 to n.
+Given an array of integers A sorted in non-decreasing order, 
+return an array of the squares of each number, also in sorted non-decreasing 
+order.
 
-But for multiples of three it should output “Fizz”
-instead of the number and for the multiples of five output “Buzz”.
-For numbers which are multiples of both three and five output “FizzBuzz”.
-
-n = 15,
-
-Return:
-[
-    "1",
-    "2",
-    "Fizz",
-    "4",
-    "Buzz",
-    "Fizz",
-    "7",
-    "8",
-    "Fizz",
-    "Buzz",
-    "11",
-    "Fizz",
-    "13",
-    "14",
-    "FizzBuzz"
-]
+Input: [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
 /**
- * @param {number} n
- * @return {string[]}
+ * @param {number[]} A
+ * @return {number[]}
  */
 
-let input = 15;
-var fizzBuzz = function(n) {
-  let output = [];
-
-  for (let i = 1; i <= n; i++) {
-    if (i % 3 === 0 && i % 5 === 0) {
-      output.push("FizzBuzz");
-    } else if (i % 3 === 0) {
-      output.push("Fizz");
-    } else if (i % 5 === 0) {
-      output.push("Buzz");
-    } else {
-      output.push(i.toString());
-    }
-  }
-
-  return output;
+let input = [-4,-1,0,3,10]
+var sortedSquares = function(A) {
+    
+  return A.map(n => n*n).sort((a,b)=>{return a-b})
+  
 };
 
-console.log(fizzBuzz(input));
+console.log(sortedSquares(input));

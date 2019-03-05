@@ -5,6 +5,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
     
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
+| [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
 | [Leetcode - Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ExcelSheetColNum.js) | Conversion |
 | [Leetcode - First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-FirstUniqueChar.js) | String |
 | [Leetcode - Jewels Stone](https://leetcode.com/problems/jewels-and-stones/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-JewelsStone.js) | String-Comparision |
@@ -41,7 +42,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-romanToInteger.js) | Integer |
 | [Leetcode - Rotate Array](https://leetcode.com/problems/rotate-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-rotateArray.js) | Array-Integer |
 | [Leetcode - Single Number](https://leetcode.com/problems/single-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-singleNumber.js) | Array-Integer |
-| [Leetcode - Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-squarNumInArray.js) | Iteration-Conditionals |
+| [Leetcode - Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-squarNumInArray.js) | Array |
 | [Leetcode - Implement Lower Case Function](https://leetcode.com/problems/to-lower-case/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-toLowerCase.js) | Character-Manipulation |
 | [Leetcode - Two Sum](https://leetcode.com/problems/two-sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-twoSum.js) | Array-Integer |
 | [Leetcode - Unique Paths](https://leetcode.com/problems/unique-paths/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-uniquePaths.js) | Array-Integer |
