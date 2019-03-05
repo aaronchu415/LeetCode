@@ -5,11 +5,12 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
     
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
-| [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
+| [Leetcode - Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.1.js) | Array-Integer |
 | [Leetcode - Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ExcelSheetColNum.js) | Conversion |
 | [Leetcode - First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-FirstUniqueChar.js) | String |
 | [Leetcode - Jewels Stone](https://leetcode.com/problems/jewels-and-stones/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-JewelsStone.js) | String-Comparision |
 | [Leetcode - Majority Element](https://leetcode.com/problems/majority-element/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MajorityElement.js) | Array-Integer |
+| [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-RobotReturnToOrigin.js) | Array-Integer |
 | [Leetcode - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TopKfrequent.js) | Array-Integer |
 | [Leetcode - Unique Email](https://leetcode.com/problems/unique-email-addresses/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-UniqueEmail.js) | Array-String-Manipulation |
 | [Leetcode - Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ValidAnagram.js) | String |
