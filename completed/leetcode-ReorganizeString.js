@@ -38,27 +38,35 @@ var helper = function (memo, output, subString) {
 
     //if character is not equal to the last ch in the output
     //then we can add it to the output and recurse down to try to find a solution
-    //if the branch comes back with undefined then that branch does not work
+
+    //if the branch does not work (if we get through the entire substring and cant find a way to concat) then it will return ''
+    //if answer is not '' then we just return it up the recursion stack
+    //if it is '' then we will explore other branches
 
     if (ch !== output.charAt(output.length - 1)) {
 
       let answer
 
+      //if we have already computed this branch (same currentOutput and same substring) then just look up answer
       if (memo[[output.concat(ch), removeCharAtIndexFromString(subString, i)]]) {
         answer = memo[[output.concat(ch), removeCharAtIndexFromString(subString, i)]]
 
+        //else compute answer and store 
       } else {
         answer = helper(memo, output.concat(ch), removeCharAtIndexFromString(subString, i))
         memo[[output.concat(ch), removeCharAtIndexFromString(subString, i)]] = answer
 
       }
 
+      //if answer is blank then we continue on
+      //if answer is not blank then we return up the recursion stack
       if (answer !== '') return answer
 
     }
 
   }
 
+  //if current or all branch does not work then we return ''
   return ''
 
 
