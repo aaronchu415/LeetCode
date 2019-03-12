@@ -20,7 +20,6 @@ Explanation: The robot moves up once, and then down once. All moves have the sam
 
 let input = "UD"
 
-
 var judgeCircle = function (moves) {
   let movesList = moves.split('')
 

@@ -6,12 +6,14 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
-| [Leetcode - DI String Match](https://leetcode.com/problems/di-string-match/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-DIStringMatch.js) | Array-Integer |
+| [Leetcode - DI String Match](https://leetcode.com/problems/di-string-match/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-DIStringMatch.js) | String |
 | [Leetcode - Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ExcelSheetColNum.js) | Conversion |
 | [Leetcode - First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-FirstUniqueChar.js) | String |
 | [Leetcode - Jewels Stone](https://leetcode.com/problems/jewels-and-stones/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-JewelsStone.js) | String-Comparision |
+| [Leetcode - Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-KthLargestElementinaStream.js) | Array |
 | [Leetcode - Majority Element](https://leetcode.com/problems/majority-element/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MajorityElement.js) | Array-Integer |
 | [Leetcode - Plus One](https://leetcode.com/problems/plus-one/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-PlusOne.js) | Array-Integer |
+| [Leetcode - Reorganize String](https://leetcode.com/problems/reorganize-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ReorganizeString.js) | String |
 | [Leetcode - Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-RobotReturnToOrigin.js) | Array-Integer |
 | [Leetcode - Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SortArrayByParity.js) | Array-Integer |
 | [Leetcode - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TopKfrequent.js) | Array-Integer |
@@ -38,6 +40,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Missing Number](https://leetcode.com/problems/missing-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-missingNumber.js) | Array-Integer |
 | [Leetcode - Morse Code](https://leetcode.com/problems/unique-morse-code-words/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-morseCode.js) | Array-String-Transformation |
 | [Leetcode - Moving Zeros](https://leetcode.com/problems/move-zeroes/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-movingZeros.js) | Array-Integer-Manipulation |
+| [Leetcode - Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-nthLargestElement.js) | String |
 | [Leetcode - Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-pascalsTriange.js) | Iterative |
 | [Leetcode - Permutations](https://leetcode.com/problems/permutations/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-permutations.js) | Array-Integer |
 | [Leetcode - Power of Three](https://leetcode.com/problems/power-of-three/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-powerOfThree.js) | Array-Integer |

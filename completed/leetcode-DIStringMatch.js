@@ -1,6 +1,6 @@
 // _NAME: DI String Match
 // _LINK: https://leetcode.com/problems/di-string-match/
-// _CATEGORY: Array-Integer
+// _CATEGORY: String
 
 /**
 Given a string S that only contains "I" (increase) or "D" (decrease), let N = S.length.
