@@ -6,6 +6,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
+| [Leetcode - Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BSTInorderTraversal.js) | Binary Tree |
 | [Leetcode - DI String Match](https://leetcode.com/problems/di-string-match/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-DIStringMatch.js) | String |
 | [Leetcode - Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ExcelSheetColNum.js) | Conversion |
 | [Leetcode - First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-FirstUniqueChar.js) | String |
