@@ -1,4 +1,5 @@
-// _NAME: Climbing Stairs _LINK: https://leetcode.com/problems/climbing-stairs/
+// _NAME: Climbing Stairs 
+// _LINK: https://leetcode.com/problems/climbing-stairs/
 // _CATEGORY: Integer
 
 /**
@@ -42,11 +43,11 @@ var climbStairs = function (n) {
 };
 
 var helper = function (memo, i) {
-  if (i === 0) 
+  if (i === 0)
     return 1;
-  if (i < 0) 
+  if (i < 0)
     return 0;
-  
+
   if (memo[i]) {
     return memo[i];
   }
