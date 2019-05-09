@@ -1,6 +1,6 @@
 # // _NAME: NarayTreePreorderTraversal
 # // _LINK: https://leetcode.com/problems/n-ary-tree-preorder-traversal/
-# // _CATEGORY: Array-Integers
+# // _CATEGORY: Tree
 
 # Given an n-ary tree, return the preorder traversal of its nodes' values.
 
