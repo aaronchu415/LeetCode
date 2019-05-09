@@ -28,28 +28,28 @@ Output:
  */
 var subsets = function (nums) {
 
-  let output = []
+  let output = [];
 
-  helper(output, [], 0, nums)
+  helper(output, [], 0, nums);
 
-  return output
+  return output;
 
 };
 
 var helper = function (output, arr, i, nums) {
 
   if (i === nums.length) {
-    output.push([...arr])
-    return
+    output.push([...arr]);
+    return;
   }
 
-  let n = nums[i]
+  let n = nums[i];
 
   //not add
-  helper(output, arr, i + 1, nums)
+  helper(output, arr, i + 1, nums);
 
   //add
-  arr.push(n)
-  helper(output, arr, i + 1, nums)
-  arr.pop()
-}
+  arr.push(n);
+  helper(output, arr, i + 1, nums);
+  arr.pop();
+};
