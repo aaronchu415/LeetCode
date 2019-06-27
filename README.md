@@ -5,6 +5,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
     
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
+| [Leetcode - 3Sum](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-3Sum.js) | Array |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
 | [Leetcode - Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BSTInorderTraversal.js) | Binary Tree |
 | [Leetcode - Clone Graph](https://leetcode.com/problems/clone-graph/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-CloneGraph.js) | Graph |
@@ -28,6 +29,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LowestCommonAncestorofaBinaryTree.js) | Binary Tree |
 | [Leetcode - Majority Element](https://leetcode.com/problems/majority-element/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MajorityElement.js) | Array-Integer |
 | [Leetcode - Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MaxArea.js) | Array-Integer |
+| [Leetcode - Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MergeIntervals.js) | Array |
 | [Leetcode - Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MergeSortedArray.js) | Array |
 | [Leetcode - Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MergeTwoBinaryTrees.js) | Binary Tree |
 | [Leetcode - Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MinimumAddToMakeParenthesesValid.js) | String |
@@ -43,6 +45,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-RobotReturnToOrigin.js) | Array-Integer |
 | [Leetcode - Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SerializeAndDeserializeBST.js) | BST |
 | [Leetcode - Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SortArrayByParity.js) | Array-Integer |
+| [Leetcode - Sort Colors](https://leetcode.com/problems/sort-colors/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SortColors.js) | Array |
 | [Leetcode - Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SurroundRegion.js) | Array |
 | [Leetcode -  Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SymmetricTree.js) | Binary Tree |
 | [Leetcode - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TopKfrequent.js) | Array-Integer |
