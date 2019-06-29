@@ -19,6 +19,8 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-FirstUniqueChar.js) | String |
 | [Leetcode - Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-GenerateParentheses.js) | Array-Integer |
 | [Leetcode - Height Checker](https://leetcode.com/problems/height-checker/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-HeightChecker.js) | Array |
+| [Leetcode - House Robber](https://leetcode.com/problems/house-robber/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-HouseRobber.js) | Array |
+| [Leetcode - House Robber II](https://leetcode.com/problems/house-robber-ii/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-HouseRobberII.js) | Array |
 | [Leetcode - Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ImplementstrStr().js) | String |
 | [Leetcode - Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-InvertBinaryTree.js) | Binary Tree |
 | [Leetcode - Jewels Stone](https://leetcode.com/problems/jewels-and-stones/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-JewelsStone.js) | String-Comparision |
