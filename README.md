@@ -56,6 +56,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SurroundRegion.js) | Array |
 | [Leetcode -  Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SymmetricTree.js) | Binary Tree |
 | [Leetcode - Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TopKfrequent.js) | Array-Integer |
+| [Leetcode - Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TrimaBinarySearchTree.js) | BST |
 | [Leetcode - Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TwoCityScheduling.py) | Array |
 | [Leetcode - Unique Email](https://leetcode.com/problems/unique-email-addresses/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-UniqueEmail.js) | Array-String-Manipulation |
 | [Leetcode - Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-UniquePathsIII.js) | Array-Integer |
