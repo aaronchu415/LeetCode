@@ -21,7 +21,6 @@ The null node needs to be represented by empty parenthesis pair "()". And you ne
 var tree2str = function (t) {
 
   let output = '';
-  let output2 = [];
 
   function preorder(node) {
     if (!node) {
