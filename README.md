@@ -5,6 +5,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
     
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
+| [Ctci - Remove Dups from an unsorted Linked List (2.1)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-2:1.js) | CTCI |
 | [Leetcode - 3Sum](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-3Sum.js) | Array |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
 | [Leetcode - Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BSTInorderTraversal.js) | Binary Tree |
@@ -36,6 +37,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LinkedListCycle.js) | Linked List |
 | [Leetcode - Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LongestContinuousIncreasingSubsequence.js) | Array |
 | [Leetcode - Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LongestIncreasingSubsequence.py) | Array |
+| [Leetcode - Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LongestPalindromicSubstring.js) | String |
 | [Leetcode - Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LowestCommonAncestorofaBinarySearchTree.js) | Binary Search Tree |
 | [Leetcode - Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LowestCommonAncestorofaBinaryTree.js) | Binary Tree |
 | [Leetcode - Majority Element](https://leetcode.com/problems/majority-element/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MajorityElement.js) | Array-Integer |
