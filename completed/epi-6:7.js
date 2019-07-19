@@ -1,4 +1,4 @@
-// _NAME: The Look-And-Say Problem
+// _NAME: The Look-And-Say Problem (6.7)
 // _LINK: https://elementsofprogramminginterviews.com/
 // _CATEGORY: EPI
 
