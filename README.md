@@ -5,6 +5,8 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
     
 | Problem                                        | Solution            | Category      |
 | ---------------------------------------------- | ------------------- | ------------- |
+| [CodeSignal - Dropbox - campusCup](https://app.codesignal.com/company-challenges/dropbox/RMJDiTprBf5HQY3oa) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/codeSignal-DropBoxCampusCup.js) | Company Challenge |
+| [CodeSignal - Dropbox - Passwords](https://app.codesignal.com/company-challenges/dropbox/ffibMFaS7mzKZkAE3) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/codeSignal-DropBoxPasswords.js) | Company Challenge |
 | [Ctci - Palindrome Permutation (1.4)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:4.js) | CTCI |
 | [Ctci - One Away (1.5)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:5.js) | CTCI |
 | [Ctci - String Compression (1.6)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:6.js) | CTCI |
@@ -13,7 +15,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Epi - Delete Duplicates from a Sorted Array (5.5)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:5.js) | EPI |
 | [Epi - Enumerate all primes to N (5.9)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:9.js) | EPI |
 | [Epi - The Look-And-Say Problem (6.7)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-6:7.js) | EPI |
-| [Epi - Implement Even-Odd Linked List(7.10)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-7:10.js) | EPI |
+| [Epi - Implement Even-Odd Linked List (7.10)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-7:10.js) | EPI |
 | [Leetcode - 3Sum](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-3Sum.js) | Array |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
 | [Leetcode - Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BSTInorderTraversal.js) | Binary Tree |
@@ -43,6 +45,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LetterCombinationsofaPhoneNumber.js) | Array |
 | [Leetcode - Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LetterTilePossibilities.js) | String |
 | [Leetcode - Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LinkedListCycle.js) | Linked List |
+| [Leetcode - Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LongestConsecutiveSequence.js) | Array |
 | [Leetcode - Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LongestContinuousIncreasingSubsequence.js) | Array |
 | [Leetcode - Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LongestIncreasingSubsequence.py) | Array |
 | [Leetcode - Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LongestPalindromicSubstring.js) | String |

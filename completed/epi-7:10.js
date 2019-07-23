@@ -1,4 +1,4 @@
-// _NAME: Implement Even-Odd Linked List(7.10)
+// _NAME: Implement Even-Odd Linked List (7.10)
 // _LINK: https://elementsofprogramminginterviews.com/
 // _CATEGORY: EPI
 
