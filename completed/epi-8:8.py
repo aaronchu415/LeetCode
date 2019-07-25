@@ -1,4 +1,4 @@
-# // _NAME: Implement a queue using stacks
+# // _NAME: Implement a Queue using Stacks (8.8)
 # // _LINK: https://elementsofprogramminginterviews.com/
 # // _CATEGORY: EPI
 

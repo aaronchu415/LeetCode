@@ -16,7 +16,8 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Epi - Enumerate all primes to N (5.9)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:9.js) | EPI |
 | [Epi - The Look-And-Say Problem (6.7)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-6:7.js) | EPI |
 | [Epi - Implement Even-Odd Linked List (7.10)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-7:10.js) | EPI |
-| [Epi - Implement a queue using stacks](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-8:8.py) | EPI |
+| [Epi - Is String Well-Formed?](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-8:3.py) | EPI |
+| [Epi - Implement a Queue using Stacks (8.8)](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-8:8.py) | EPI |
 | [Leetcode - 3Sum](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-3Sum.js) | Array |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
 | [Leetcode - Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BSTInorderTraversal.js) | Binary Tree |
