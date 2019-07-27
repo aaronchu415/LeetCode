@@ -10,13 +10,14 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Ctci - Palindrome Permutation (1.4)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:4.js) | CTCI |
 | [Ctci - One Away (1.5)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:5.js) | CTCI |
 | [Ctci - String Compression (1.6)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:6.js) | CTCI |
+| [Ctci - Rotate Matrix (1.7)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:7.js) | CTCI |
 | [Ctci - Remove Dups from an unsorted Linked List (2.1)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-2:1.js) | CTCI |
 | [Epi - Intersecting Rectangles (4.11)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-4:11.js) | EPI |
 | [Epi - Delete Duplicates from a Sorted Array (5.5)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:5.js) | EPI |
 | [Epi - Enumerate all primes to N (5.9)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:9.js) | EPI |
 | [Epi - The Look-And-Say Problem (6.7)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-6:7.js) | EPI |
 | [Epi - Implement Even-Odd Linked List (7.10)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-7:10.js) | EPI |
-| [Epi - Is String Well-Formed?](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-8:3.py) | EPI |
+| [Epi - Is String Well-Formed? (8.3)](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-8:3.py) | EPI |
 | [Epi - Implement a Queue using Stacks (8.8)](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-8:8.py) | EPI |
 | [Leetcode - 3Sum](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-3Sum.js) | Array |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
@@ -81,6 +82,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ShortestDistancetoaCharacter.js) | Array |
 | [Leetcode - Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SortArrayByParity.js) | Array-Integer |
 | [Leetcode - Sort Colors](https://leetcode.com/problems/sort-colors/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SortColors.js) | Array |
+| [Leetcode - Steps](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-Steps.js) | Array |
 | [Leetcode - Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SurroundRegion.js) | Array |
 | [Leetcode -  Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SymmetricTree.js) | Binary Tree |
 | [Leetcode - Text Justification](https://leetcode.com/problems/text-justification/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TextJustification.js) | Array |
@@ -106,6 +108,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Find Common Characters](https://leetcode.com/problems/find-common-characters/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findCommonChar.js) | String |
 | [Leetcode - Find Disappearing Number](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findDisappearedNum.js) | Array-Integer |
 | [Leetcode - Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findDupNumbers.js) | Array-Integer |
+| [Leetcode - Squares of a Sorted Array](https://leetcode.com/problems/find-duplicate-subtrees/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findDupSubTrees.js) | Binary Tree |
 | [Leetcode - Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-fizzbuzz.js) | Iteration-Conditionals |
 | [Leetcode - Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-flippingAnImage.js) | 2d-Array-Manipulation |
 | [Leetcode - Game of Life](https://leetcode.com/problems/game-of-life/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-gameOfLife.js) | Array-Integer |
