@@ -7,7 +7,7 @@ var minDistance = function(word1, word2) {
 
 var count = 0;
 
-var helper = function(w1, w2) {
+var hello = function(w1, w2) {
   console.log(count, w1, w2);
   count++;
   if (w1 === undefined || w2 === undefined) return;
