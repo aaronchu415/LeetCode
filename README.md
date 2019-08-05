@@ -12,6 +12,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Ctci - String Compression (1.6)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:6.js) | CTCI |
 | [Ctci - Rotate Matrix (1.7)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:7.js) | CTCI |
 | [Ctci - Remove Dups from an unsorted Linked List (2.1)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-2:1.js) | CTCI |
+| [Epi - Compute the Median of Online Data](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-10:5.py) | EPI |
 | [Epi - Intersecting Rectangles (4.11)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-4:11.js) | EPI |
 | [Epi - Delete Duplicates from a Sorted Array (5.5)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:5.js) | EPI |
 | [Epi - Enumerate all primes to N (5.9)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:9.js) | EPI |
@@ -72,6 +73,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Plus One](https://leetcode.com/problems/plus-one/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-PlusOne.js) | Array-Integer |
 | [Leetcode - Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ProductOfArrayExceptSelf.js) | Array-Integer |
 | [Leetcode - Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-RangeSumofBST.js) | BST |
+| [Leetcode - Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-RemoveAllAdjacentDuplicatesInString.js) | String |
 | [Leetcode - Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-RemoveOutermostParentheses.js) | String |
 | [Leetcode - Reorganize String](https://leetcode.com/problems/reorganize-string/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ReorganizeString.js) | String |
 | [Leetcode - Reverse Only Letters](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ReverseOnlyLetters.js) | String |
@@ -113,6 +115,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Find Disappearing Number](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findDisappearedNum.js) | Array-Integer |
 | [Leetcode - Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findDupNumbers.js) | Array-Integer |
 | [Leetcode - Squares of a Sorted Array](https://leetcode.com/problems/find-duplicate-subtrees/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findDupSubTrees.js) | Binary Tree |
+| [Leetcode - Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-findMedianFromDataStream.py) | Array |
 | [Leetcode - Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-fizzbuzz.js) | Iteration-Conditionals |
 | [Leetcode - Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-flippingAnImage.js) | 2d-Array-Manipulation |
 | [Leetcode - Game of Life](https://leetcode.com/problems/game-of-life/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-gameOfLife.js) | Array-Integer |
