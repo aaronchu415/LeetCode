@@ -13,6 +13,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Ctci - Rotate Matrix (1.7)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:7.js) | CTCI |
 | [Ctci - Remove Dups from an unsorted Linked List (2.1)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-2:1.js) | CTCI |
 | [Epi - Compute the Median of Online Data](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-10:5.py) | EPI |
+| [Epi - Compute the Real Square Root](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-11:5.py) | EPI |
 | [Epi - Intersecting Rectangles (4.11)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-4:11.js) | EPI |
 | [Epi - Delete Duplicates from a Sorted Array (5.5)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:5.js) | EPI |
 | [Epi - Enumerate all primes to N (5.9)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-5:9.js) | EPI |
@@ -22,8 +23,11 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Epi - Implement a Queue using Stacks (8.8)](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-8:8.py) | EPI |
 | [Epi - Binary Tree Inorder Traversal O(N) Time O(1) Space (9.10)](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-9:10.py) | EPI |
 | [Leetcode - 3Sum](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-3Sum.js) | Array |
+| [Leetcode - 4Sum II](https://leetcode.com/problems/4sum-ii/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-4SumII.js) | Array |
+| [Leetcode - All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AllPathsFromSourcetoTarget.py) | Graph |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
 | [Leetcode - Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BSTInorderTraversal.js) | Binary Tree |
+| [Leetcode - Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BestTimetoBuyandSellStockIII.py) | Array |
 | [Leetcode - Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BinaryTreeZigzagLevelOrderTraversal.js) | Binary Tree |
 | [Leetcode - Clone Graph](https://leetcode.com/problems/clone-graph/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-CloneGraph.js) | Graph |
 | [Leetcode - Coin Change](https://leetcode.com/problems/coin-change/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-CoinChange.js) | Array |
@@ -32,6 +36,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-CousinsInBinaryTree.js) | Binary Tree |
 | [Leetcode - DI String Match](https://leetcode.com/problems/di-string-match/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-DIStringMatch.js) | String |
 | [Leetcode - Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-DeleteAndEarn.js) | Array-Integer |
+| [Leetcode - Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-DeleteNodesAndReturnForest.py) | Binary Tree |
 | [Leetcode - Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-DiameterofBinaryTree.js) | Array |
 | [Leetcode - Edit Distance](https://leetcode.com/problems/edit-distance/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-EditDistance.js) | Array |
 | [Leetcode - Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-ExcelSheetColNum.js) | Conversion |
@@ -59,6 +64,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-LowestCommonAncestorofaBinaryTree.js) | Binary Tree |
 | [Leetcode - Majority Element](https://leetcode.com/problems/majority-element/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MajorityElement.js) | Array-Integer |
 | [Leetcode - Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MaxArea.js) | Array-Integer |
+| [Leetcode - Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MaxIncreasetoKeepCitySkyline.py) | Array |
 | [Leetcode - Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MaximumSubarray.js) | Array |
 | [Leetcode - Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MergeIntervals.js) | Array |
 | [Leetcode - Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-MergeSortedArray.js) | Array |
@@ -87,6 +93,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SortArrayByParity.js) | Array-Integer |
 | [Leetcode - Sort Colors](https://leetcode.com/problems/sort-colors/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SortColors.js) | Array |
 | [Leetcode - Steps](https://leetcode.com/problems/3sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-Steps.js) | Array |
+| [Leetcode - Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SubarraySumEqualsK.js) | Array |
 | [Leetcode - Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SurroundRegion.js) | Array |
 | [Leetcode -  Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-SymmetricTree.js) | Binary Tree |
 | [Leetcode - Text Justification](https://leetcode.com/problems/text-justification/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-TextJustification.js) | Array |
