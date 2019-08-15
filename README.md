@@ -27,6 +27,8 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AllPathsFromSourcetoTarget.py) | Graph |
 | [Leetcode - Available Captures for Rook](https://leetcode.com/problems/available-captures-for-rook/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-AvailableCapturesforRook.js) | Array-Integer |
 | [Leetcode - Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BSTInorderTraversal.js) | Binary Tree |
+| [Leetcode - Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BasicCalculator.py) | String |
+| [Leetcode - Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BasicCalculatorII.py) | String |
 | [Leetcode - Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BestTimetoBuyandSellStockIII.py) | Array |
 | [Leetcode - Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-BinaryTreeZigzagLevelOrderTraversal.js) | Binary Tree |
 | [Leetcode - Clone Graph](https://leetcode.com/problems/clone-graph/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-CloneGraph.js) | Graph |
@@ -158,6 +160,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Single Number](https://leetcode.com/problems/single-number/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-singleNumber.js) | Array-Integer |
 | [Leetcode - Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-squarNumInArray.js) | Array |
 | [Leetcode - Subsets](https://leetcode.com/problems/subsets/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-subsets.js) | Array-Integers |
+| [Leetcode - Target Sum](https://leetcode.com/problems/target-sum/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-targetSum.py) | Array |
 | [Leetcode - Implement Lower Case Function](https://leetcode.com/problems/to-lower-case/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-toLowerCase.js) | Character-Manipulation |
 | [Leetcode - Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-trapRain.js) | Array |
 | [Leetcode - Two Sum](https://leetcode.com/problems/two-sum/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-twoSum.js) | Array-Integer |
@@ -166,6 +169,7 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Leetcode - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-validParen.js) | Parentheses |
 | [Leetcode - Word Break](https://leetcode.com/problems/word-break/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-wordBreak.js) | String |
 | [Leetcode - Word Search](https://leetcode.com/problems/word-search/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcode-wordSearch.js) | Array |
+| [LeetcodeIs - Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/leetcodeIs-GraphBipartite.py) | Graph |
 | [ProjectEuler - Multiples of 3 and 5](https://projecteuler.net/problem=1) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem1.js) | Integers |
 | [ProjectEuler - Even Fibonacci numbers](https://projecteuler.net/problem=2) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem2.js) | Integer |
 | [ProjectEuler - Largest prime factor](https://projecteuler.net/problem=3) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/projectEuler-problem3.js) | Integer |
