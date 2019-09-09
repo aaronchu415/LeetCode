@@ -12,6 +12,9 @@ My [Leetcode Profile](https://leetcode.com/aaronchu415/)
 | [Ctci - String Compression (1.6)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:6.js) | CTCI |
 | [Ctci - Rotate Matrix (1.7)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-1:7.js) | CTCI |
 | [Ctci - Remove Dups from an unsorted Linked List (2.1)](http://www.crackingthecodinginterview.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-2:1.js) | CTCI |
+| [Ctci - Loop Detection (2.8)](http://www.crackingthecodinginterview.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-2:8.py) | CTCI |
+| [Ctci - Three in One(3.1)](http://www.crackingthecodinginterview.com/) | [solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-3.1.py) | CTCI |
+| [Ctci - Sort Stack(3.5)](http://www.crackingthecodinginterview.com/) | [solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/ctci-3.5.py) | CTCI |
 | [Epi - Compute the Median of Online Data](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-10:5.py) | EPI |
 | [Epi - Compute the Real Square Root](https://elementsofprogramminginterviews.com/) | [python solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-11:5.py) | EPI |
 | [Epi - Intersecting Rectangles (4.11)](https://elementsofprogramminginterviews.com/) | [javascript solution](https://github.com/aaronchu415/LeetCode/blob/master/completed/epi-4:11.js) | EPI |
